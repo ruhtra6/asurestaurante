@@ -1,0 +1,105 @@
+/* Estilos gerais */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    background: url(../imagens/asu.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Estilos específicos para o cabeçalho */
+.header-section {
+    background: url(../imagens/logo.jpeg) no-repeat left;
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 0;
+    background-size: contain;
+    border-radius: 30px;
+    width: 1400px;
+    margin: 0 auto;
+    position: relative; /* Define o posicionamento relativo para os elementos filhos */
+}
+
+.header-section h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0; /* Remover margem padrão */
+}
+
+.header-section p {
+    text-align: center;
+    margin: 0; /* Remover margem padrão */
+}
+
+/* Estilos específicos para as seções */
+.sobre-section,
+.cardapio-section,
+.reservas-section {
+    background-position: right;
+    margin: 15px auto 0; 
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    width: 350px;
+    height: 130px;
+}
+
+.sobre-section h2,
+.cardapio-section h2,
+.reservas-section h2 {
+    color: #e2e2e2;
+}
+
+
+/* Estilos específicos para o rodapé */
+.footer-section {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.footer-section p {
+    margin: 0;
+}
+
+/* Estilos específicos para o botão */
+.btn {
+    display: inline-block;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #212529;
+    
+}
+.instagram-link {
+    color: #fff; /* Cor do ícone */
+    font-size: 4vw; /* Tamanho do ícone relativo à largura da viewport */
+    text-decoration: none; /* Remover sublinhado do link */
+    position: absolute; /* Torna o elemento fixo ao cabeçalho */
+    top: 50%; /* Define a posição vertical no meio do cabeçalho */
+    right: 5%; /* Define a posição à direita com uma margem de 5% */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+}
+
+.instagram-link:hover {
+    color: #504f4c; /* Cor do ícone ao passar o mouse */
+}
